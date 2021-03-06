@@ -1,0 +1,62 @@
+/*estilos en variables*/
+:root {
+  --blanco: #ffffff;
+  --negro: #212121;
+  --primario: #ffc107;
+  --secundario: #0097a7;
+  --gris: #757575;
+  --fuenteGeneral: 3.8rem;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 16px; /*1 rem = 10px*/
+  font-family: "krub", Courier, monospace;
+}
+/*contenedor para centrar**/
+.contenedor {
+  width: 120rem;
+  /*Los tres hacen lo mismo. Solo es la forma de simplificar el primero*/
+  margin-top: 0;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: auto;
+
+  margin: 0 auto 0 auto;
+
+  margin: 0 auto;
+}
+.navBackground {
+  background-color: var(--secundario);
+}
+span {
+  font-size: 2rem;
+}
+.titulo {
+  color: var(--primario);
+  font-size: var(--fuenteGeneral);
+  text-align: center;
+}
+.titulo span {
+  color: rosybrown;
+}
+.navegacion-principal {
+  /*aplicamos flexbox*/ /*Flexbox alinea en forma horizonal en filas o en forma verital columnas*/
+  display: flex;
+  justify-content: space-between;
+}
+
+.navegacion-principal a {
+  color: var(--blanco);
+  padding: 2rem;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.navegacion-principal a:hover {
+  background-color: var(--primario);
+  color: var(--negro);
+  font-weight: bold;
+}

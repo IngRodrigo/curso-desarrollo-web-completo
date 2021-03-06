@@ -1,0 +1,25 @@
+//lo primero en cargar es normalize.css, esta libreria es la que hace que la web se vea igual
+a como la diseñas en todos los dispositivos
+//atajos visualstudio
+shift+alt+arriba o abajo, duplica la linea actual
+//iconos para los titulos 
+https://tablericons.com/
+//Truco para usar rem en lugar de px en todos los proyectos
+//Al iniciar la hoja de estilos coloca.
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 16px; /*1 rem = 10px*/
+}
+//En css es importante la especificidad, mientras mas especificos seas con los selectores, a esos 
+es que el navegador le pondra mas atencion y realizara los cambios
+
+******************
+display: block;/los elmentos se colocan uno debajo de otro
+display: inline;/los elementos se colocan a la derecha
+
+*Flexbox alinea en forma horizonal en filas o en forma verital columnas*/
+
+********************
+
