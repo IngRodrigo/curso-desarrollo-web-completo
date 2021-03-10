@@ -21,5 +21,13 @@ display: inline;/los elementos se colocan a la derecha
 
 *Flexbox alinea en forma horizonal en filas o en forma verital columnas*/
 
+el elemento padre siempre debe tener una posicion relativa y para que el hijo tenga una posicion absoluta
 ********************
 
+//solucionar modelo caja css
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
